@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./hero-2-cover\ sec-.png");
+    background-size: 100vw 100vh;
+    font-family: 'Poppins';
+    background-blend-mode: darken;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  li>h2{
+    padding: 8px 20px;
+  }
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    display: flex;
+    padding: 14px 20px;
+    width: 20%;
+    justify-content: left;
+    color: white;
+  }
+  .right>a {
+    color: white;
+    text-decoration: none;
+  }
+  .containernav {
+    display: flex;
+    width: 100vw;
+    color: white;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+  }
+
+  button {
+    color: white;
+    background-color: #96BB7C;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .containermain>h1{
+    color: white;
+    font-family: sans-serif;
+  }
+  .containermain {
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 170px;
+    line-height: 3em;
+  }
